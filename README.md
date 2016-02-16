@@ -8,7 +8,7 @@ Several methods are proposed
   enum SolvePnpStrategy
   {
     Strategy_MySolvePnp_Epnp, //an home baked adapter of epnp using the epnp library source code
-    Strategy_MySolvePnpPosit, //an home baked adapter of cvPOSIT (deprecated opencv 1 pose estimation method)
+    Strategy_MySolvePnpPosit, //an home baked adapter of cvPOSIT (deprecated "OpenCV 1" pose estimation method)
     Strategy_solvePnp_P3p,    // opencv SOLVEPNP_P3P method
     Strategy_solvePnp_Iterative_InitialGuess, // opencv SOLVEPNP_ITERATIVE method with an initial guess
     Strategy_solvePnp_Epnp //opencv SOLVEPNP_EPNP method
