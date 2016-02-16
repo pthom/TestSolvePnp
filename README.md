@@ -34,6 +34,6 @@ It has to be adapted depending upon the strategy !
 
 * With solvePnp_P3p (cv::SOLVEPNP_P3P) the error is about 0.02961 pixels and the order does not matter much
 
-* With solvePnp_P3p (cv::SOLVEPNP_ITERATIVE) the error can be 0 pixels
+* With solvePnp_Iterative_InitialGuess (cv::SOLVEPNP_ITERATIVE) the error can be 0 pixels
   *if a good initial extrinsic guess is given* (otherwise don't hope for any convergence).
   The order does not matter much with SOLVEPNP_ITERATIVE.
