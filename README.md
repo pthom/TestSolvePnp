@@ -22,8 +22,8 @@ The order of the 3d points and image points *does* matter
 
 It has to be adapted depending upon the strategy !
 
-* With opencv's SOLVEPNP_EPNP the error can go down to 23.03 pixel with the following order
-  the order of the points does matter
+* With opencv's SOLVEPNP_EPNP the error can go down to 23.03 pixel.
+  The order of the points does matter
 
 * With MySolvePnpEpnp (an home baked adapter of epnp using the epnp library source code),
   the error is about 6.742 pixels, and the order *is* important

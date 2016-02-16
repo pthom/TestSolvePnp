@@ -227,7 +227,7 @@ void TestSolvePnp()
   // The order of the 3d points and image points *does* matter
   // It has to be adapted depending upon the strategy !
 
-  // With opencv's SOLVEPNP_EPNP the error can go down to 23.03 pixel with the following order
+  // With opencv's SOLVEPNP_EPNP the error can go down to 23.03 pixel with the following order.
   //the order of the points does matter
   if (strategy == Strategy_solvePnp_Epnp)
   {
