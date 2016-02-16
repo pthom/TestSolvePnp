@@ -3,6 +3,10 @@
 A simple playground in order to test various pnp (3D pose estimation) methods with a given
 configuration.
 
+This code is related to the following conversations:
+* http://answers.opencv.org/question/87546/solvepnp-fails-with-perfect-coordinates-and-cvposit-passes/
+* https://github.com/Itseez/opencv/issues/6117
+
 Several methods are proposed
 ```
   enum SolvePnpStrategy
